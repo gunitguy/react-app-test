@@ -21,7 +21,7 @@ const config: Config.InitialOptions = {
         "\\.(s?css)$": "identity-obj-proxy"
     },
     moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
-    setupFilesAfterEnv: ["<rootDir>/test/setup/rtl-setup", "<rootDir>/test/setup/tests-setup"],
+    setupFilesAfterEnv: ["<rootDir>/test/setup/rtl-setup"],
     testURL: "http://localhost"
 };
 

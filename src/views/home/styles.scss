@@ -1,0 +1,36 @@
+.home {
+  font-size: 40px;
+  padding: 40px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  h1 {
+    width: fit-content;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+
+  button {
+    width: fit-content;
+    background: deepskyblue;
+    color: #f0f8ff;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid darkblue;
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    margin-bottom: 40px;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

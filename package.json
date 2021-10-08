@@ -4,7 +4,9 @@
   "description": "",
   "default": "build/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ignore-path .eslintignore",
+    "lint:fix": "eslint --fix --ignore-path .eslintignore",
+    "test": "jest",
     "clean": "npm run clean:build && npm run clean:cache && npm run clean:dist",
     "clean:build": "rm -rf build",
     "clean:cache": "rm -rf .parcel-cache",
